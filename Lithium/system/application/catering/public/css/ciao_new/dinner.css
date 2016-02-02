@@ -1,0 +1,375 @@
+/* ========================================================================= */
+/* 	GENERIC STYLES */
+/* ========================================================================= */
+
+html,body {width: 100%;	}
+html {
+height: 100%;
+margin: 0;
+padding: 0; 
+}
+body {
+height: 100%;	
+text-align: left; 
+font: normal 12px Arial, Verdana, Helvetica, sans-serif;
+margin: 0; 
+padding: 0; 
+background: #fff;/*url("img/bg.png") repeat 0 0;*/
+}
+/* Clearing Floats Without Structural Markup - ala http://www.positioniseverything.net/easyclearing.html */
+.clearfix:after {
+display: block; 
+clear: both; 
+visibility: hidden;
+height: 0; 
+content: "."; 
+}
+.clearer {
+clear: both;
+}
+
+
+/* ============================================================================ */
+/* MAIN STYLES */
+/* ============================================================================ */
+
+#mainWrapper {
+  position:relative;
+  width:867px;
+  margin:20px auto;
+  overflow:hidden;
+}
+
+/* left side */
+#wrapperLeft {
+  float:left;
+  width:223px;
+  z-index: 10;
+
+}
+
+* html #wrapperLeft {
+  margin-bottom:-2990px;
+  padding-bottom:3000px;
+}
+:first-child + html #wrapperLeft {
+  margin-bottom:-2990px;
+  padding-bottom:3000px;
+}
+
+
+#cLogo {
+  position:absolute;
+  left:0;
+  top:0;
+  z-index: 10;
+}
+
+
+#menu {
+  width:203px;
+  
+  margin:122px 0 -2990px 0;
+  padding: 20px 10px 3000px 10px;
+  
+  background:#6d3f00 url('img/menu-bg.png') no-repeat 0 0;
+}
+
+#menu ul.menuList {
+  list-style-type:none;
+  margin-left:10px;
+}
+#menu ul.menuList li {
+  margin:10px 0;
+  
+  
+  font-size:16px;
+  font-weight:bold;
+  
+  
+  
+  
+}
+#menu ul.menuList li a {
+  padding-left:10px;  
+  color:#fff;
+  text-decoration: none;
+  background: transparent url(img/menuListDot.gif) no-repeat 0px 5px;
+}
+
+#menu ul.menuList li a:hover {
+  color:#ed8113;
+  background-position: 0px -11px;
+}
+
+#menu p.menuSection {
+  margin:15px 5px;
+  padding-bottom:3px;
+  text-align:center;
+  font-size:16px;
+  
+  font-weight:bold;
+  
+  color:#fff;
+  
+  border-bottom: 1px solid #fff;
+}
+
+/* right side */
+#wrapperRight {
+  float:left;
+  width:644px;
+  
+}
+#topPic {
+  position:relative;
+  
+  width:644px;
+  height: 301px;
+  
+  margin-top:16px;
+  
+  background: transparent url('img/top-pic.jpg') no-repeat 0 0;
+  z-index:1;
+}
+
+#topPic div {
+  position:absolute;
+  bottom:10px;
+  left:10px;
+  color:#fff;
+}
+
+#topPic div p.tooltip {
+  position:absolute;
+  bottom:20px;
+  left:200px;
+  
+  width:400px;
+  
+  padding:5px;
+  
+  color:#000;
+  background-color:#e1e1e1;
+  
+  opacity:0.7;
+  filter:alpha(opacity=70);
+  
+  -moz-border-radius:6px;
+}
+
+#topPic div span b {
+  font-style: italic;
+}
+
+#main {
+  width:624px;
+  
+  margin-bottom:-2990px;
+  
+  padding: 10px 10px 3000px 10px;
+  background-color:#fff5e6;
+  
+}
+
+#pagination {
+	padding: 5px;
+	border-color:#ed8113;
+	border-width: 0 1px 1px 1px;
+	border-style:solid;
+	border-collapse:separate;
+	text-align: center;
+}
+#pagination ul {
+	list-style-type: none;
+}
+#pagination ul li {
+	float: left;
+	margin: 0 5px 0 0;
+}
+#pagination span.label {
+	float: left;
+	margin: 0 5px 0 0;
+}
+#pagination span.prev_next {
+	float: left;
+	margin: 0 0 0 10px;
+}
+/*
+#pagination ul li.first {
+	margin: 0 10px 0 0;
+}
+#pagination ul li.last {
+	margin: 0 0 0 5px;
+}
+*/
+
+div.mainContent {
+  
+}
+
+div.mainContent div.topBar {
+  text-align:center;
+  font-size:14px;
+  font-weight:bold;
+  color:#6d3f00;
+  padding:6px;
+  
+  background-color:#ed8113;
+}
+
+div.mainContent div.innerContent {
+  
+  padding:5px;
+  
+  border-color:#ed8113;
+  border-width:1px;
+  border-style:solid;
+  border-collapse:separate;
+  
+  background-color:#fee8c6;
+}
+
+div.mainContent div.innerContent p {
+  margin: 2px 0 0 2px;
+}
+
+div.mainContent div.innerContent p.settingSaved {
+  padding:3px;
+  margin:5px 10px 15px 10px;
+  
+  border:1px solid #db9b01;
+  text-align:center;
+  font-weight:bold;
+  font-size:12px;
+  color:#ED8113;
+}
+
+div.mainContent div.innerContent label {
+  display:inline;
+  float:left;
+  
+  width:180px;
+  
+  cursor:pointer;
+}
+div.mainContent div.innerContent select {
+  width:158px;
+  
+  padding:2px;
+}
+div.mainContent input.text,div.mainContent input.password {
+  width:150px;
+  
+  padding:2px;
+}
+div.mainContent input.radio {
+  
+}
+div.mainContent input.checkmark {
+  
+}
+div.mainContent input.button {
+  border:1px solid #fff;
+  background-color:#ffcc7d;
+  padding:3px 4px;
+}
+
+div.mainContent table.itemlist {
+  border-color:#ed8113;
+  border-width:1px;
+  border-style:solid;
+  border-collapse:separate;
+}
+
+div.mainContent a {
+  color:#6d3f00;
+  font-weight:bold;
+}
+
+div.mainContent table.itemlist a{
+  font-weight:normal;
+  text-decoration: underline;
+}
+
+div.mainContent table.itemlist tr th{
+  padding:5px;
+  
+  font-weight:bold;
+  color:#6d3f00;
+  background-color:#ffd99f;
+}
+div.mainContent table.itemlist tr.itemlist_header a {
+  font-weight:bold;
+  text-decoration: none;
+}
+div.mainContent table.itemlist tr.itemlist0 td{
+  padding:5px;
+  
+  color:#6d3f00;
+  
+  
+  background-color:#fee8c6;
+}
+div.mainContent table.itemlist tr.itemlist1 td{
+  padding:5px;
+  
+  color:#6d3f00;
+  
+  
+  background-color:#ffd99f;
+}
+  
+div.mainContent table.calendar {
+  margin:0 auto;
+  text-align:center;
+}
+div.mainContent table.calendar input {
+  width:40px;
+  margin:1px;
+  
+  border:1px solid #fff;
+  background-color:#ffcc7d;
+}
+div.mainContent table.calendar input.CallendarSelectedDay {
+  /*background-color:#ED8113;*/
+  background-color:#FCAB03;
+}
+
+div.calendar_icon {
+  width: 16px;
+  height: 16px;
+  display: none;
+  cursor:pointer;
+  background: transparent url('img/calendar_icon.gif') no-repeat 0 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,45 @@
+
+#menu ul {
+	border-color: #EDEDED;
+	border-style: none none none solid;
+	border-width: medium medium medium 4px;
+	float: left;
+	list-style: none outside none;
+	margin-bottom: 250px;
+	padding: 0px;
+}
+
+#menu ul li {
+	clear: both;
+	display: block;
+	float: left;
+	margin: 0 0 15px;
+	width: 100%;
+}
+
+#menu ul li a {
+    color: #333333;
+    display: block;
+    float: left;
+    font-size: 1em;
+    margin: 0;
+    padding: 0 0 0 20px;
+    text-decoration: none;
+}
+
+#menu ul li.odd {
+    clear: both;
+    display: block;
+    float: left;
+    margin: 0;
+}
+
+#menu .span {
+    background-color: #339900;
+    display: none;
+    float: left;
+    height: 15px;
+    margin: 0 0 0 -4px;
+    padding: 0;
+    width: 4px;
+}

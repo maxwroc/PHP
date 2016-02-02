@@ -1,0 +1,24 @@
+.progbar_wrap {
+	width: 202px;
+	text-align: center;
+}
+.progbar_wrap .frame {
+	height: 13px;
+	border: 1px solid black;
+	font-size: 10px;
+	margin-top: 3px;
+}
+.progbar_wrap .frame div {
+	float: left;
+	height: 13px;
+	font-weight: bold;
+}
+.progbar_wrap .status {
+	width: 40px;
+	background-color: green;
+	color: white;
+}
+
+.progbar_wrap .status_rest {
+	width: 100px;
+}

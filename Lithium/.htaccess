@@ -1,0 +1,16 @@
+# Turn on rewrite engine
+RewriteEngine on
+
+# Installation directory
+RewriteBase /
+
+# Rule for public stuff
+RewriteRule ^(image|js|css)/(.+) public/$1/$2
+RewriteRule ^lib/([a-z0-9]+)/(.+) system/Library/$1/public/$2
+
+# Main rule
+RewriteCond $0 !^(public|system/Library/[a-z0-9]+/public/|robots\.txt)
+RewriteRule .* public/index.php/$0 [PT,L]
+
+php_flag magic_quotes_gpc off
+php_flag register_globals off

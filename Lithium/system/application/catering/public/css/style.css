@@ -1,0 +1,87 @@
+body{ margin:0; padding:0; background-color:#ffffff; font-family:verdana; font-size:11px; font-weight:normal; color:#000000; text-decoration:none;}
+.strong{font-size:12px;font-weight:bold}
+.txt10{padding:0 10px;font-size:10px;}
+.txt12{padding:0 10px;font-size:12px;color:#296dab}
+.txt12g{padding:0 10px;font-size:12px;color:#296dab;background-color:#d3d3d3}
+.txt12t{padding:0 10px;font-size:12px;}
+.txt12b{padding:0 0px;font-size:12px;}
+.alert{font-size:14px;font-weight:bold;color:red;font-family:tahoma;}
+.good{font-size:14px;font-weight:bold;color:navy;font-family:tahoma;}
+a{text-decoration:none;font-weight:normal;color:#000000;border: none}
+a:hover{text-decoration:underline;}
+.input {border: 2px solid #C0C0C0;font-family:verdana;font-size:11px;background-color:#ffffff;width:130px;}
+.input2 {border: 2px solid #C0C0C0;font-family:verdana;font-size:11px;background-color:#ffffff;width:200px;}
+.input3 {border: 2px solid #C0C0C0;font-family:verdana;font-size:11px;background-color:#ffffff;width:60px;}
+.submit {font-family:verdana;font-size:9px;background-color:#bdd7ef; border: 2px solid #C0C0C0}
+
+TD.top {
+	vertical-align: top;
+}
+TABLE.enrol {
+	width: 600px;
+	margin-right: 5px;
+	margin-left: 5px;
+}
+TABLE.enrol TD {
+	padding-bottom: 5px;
+}
+TABLE.enrol TD.end {
+	padding-bottom: 0px;
+}
+.right { text-align: right; }
+.center { text-align: center; }
+.fulllen { witht: 100%; }
+.button {
+	background-color:#BDD7EF;
+	border:2px solid #C0C0C0;
+	font-family:verdana;
+	font-size:9px;
+}
+
+.StandardWidth {
+	width: 200px;
+}
+
+.content {
+	font-size: 10pt;
+	padding: 10px;
+}
+
+
+/* Listings */
+
+table.itemlist {
+	width: 100%;
+}
+
+table.itemlist th {
+	text-align: left;
+}
+
+table.itemlist tr.itemlist0 {
+	background-color: #D3D3D3;
+}
+
+table.itemlist tr.itemlist1 {
+	background-color: #FFF;
+}
+
+/* Calendar */
+table.calendar input {
+	background-color: #BDD7EF;
+	border: 2px solid #C0C0C0;
+	font-family: verdana;
+	font-size: 9px;
+	width: 35px;
+}
+table.calendar input.week {
+	width: 20px;
+}
+
+
+
+
+
+
+
+

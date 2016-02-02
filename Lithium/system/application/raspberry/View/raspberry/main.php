@@ -1,0 +1,2 @@
+Content:
+<div><?=$sMsg ?></div>

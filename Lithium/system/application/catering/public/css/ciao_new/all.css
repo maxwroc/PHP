@@ -1,0 +1,51 @@
+/*
+===============================================================================
+all.css - media: all
+===============================================================================
+*/
+
+
+/* ===============================================================================
+	RESET
+=============================================================================== */
+
+html * { margin: 0; padding: 0; }
+address, caption, cite, code, dfn, em, strong, th, var { font-style: normal; font-weight: normal; }
+/*h1, h2,h3, h4, h5, h6, p, ul, ol, dl, li { line-height: 1em; }
+h1, h2, h3, h4, h5, h6, pre, code,p{ font-size: 1em; }*/
+table {	border-collapse: collapse; border-spacing: 0; }
+table, thead, tbody, tfoot, tr, th, td, input, select, textarea {	font-size: 1em;	font-family: inherit; }	
+q:before, q:after { content: ""; }
+img, input, select, label {	vertical-align: middle; }	
+fieldset, img, a img { border: 0; }	
+
+.right { text-align: right; }
+.center { text-align: center; }
+.fulllen { witht: 100%; }
+
+
+/* Listings */
+
+table.itemlist {
+	width: 100%;
+}
+
+table.itemlist th {
+	text-align: left;
+}
+
+table.itemlist tr.itemlist0 {
+	background-color: #D3D3D3;
+}
+
+table.itemlist tr.itemlist1 {
+	background-color: #FFF;
+}
+
+/* ===============================================================================
+	GENERIC STYLES 
+=============================================================================== */
+
+
+	
+/* end */

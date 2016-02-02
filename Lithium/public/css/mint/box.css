@@ -1,0 +1,58 @@
+.main_content .box_title {
+	border-color: #339900;
+	border-style: none none none solid;
+	border-width: medium medium medium 4px;
+	margin: 0;
+	padding: 0 0 0 10px;
+	line-height: 1em;
+	font-size: 1.2em;
+	font-weight: bold;
+}
+
+.main_content .box_text {
+	font-size: 0.9em;
+	margin: 10px 15px;
+}
+
+.main_content .box_menu {
+	width: 100%;
+	text-align: right;
+}
+
+.main_content .box_menu div {
+	display: inline;
+	margin: 10px 15px;;
+}
+
+ul.box_listing {
+    margin: 0;
+    padding: 10px 0 0;
+}
+ul.box_listing li {
+    background-image: url("img/bullet.png");
+    background-position: left center;
+    background-repeat: no-repeat;
+    color: #999999;
+    list-style-image: none;
+    font-size: 1em;
+    padding: 0 0 5px 25px;
+}
+
+.img_hld {
+    background-color: #FFFFFF;
+    border: medium none;
+    height: 80px;
+    padding: 10px;
+    width: 180px;
+}
+
+.box_gallery .img_container {
+    background-color: #CFCFCF;
+    display: inline;
+    float: left;
+    height: 100px;
+    margin: 15px;
+    overflow: hidden;
+    padding: 1px;
+    width: 200px;
+}

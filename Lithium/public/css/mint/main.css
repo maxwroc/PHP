@@ -1,0 +1,178 @@
+body {
+	background: url("img/bg_body.jpg") repeat-y scroll 0 0 #FFFFFF;
+	color: #333333;
+	font-family: "Trebuchet MS",Arial,Sans-Serif;
+	font-size: 0.8em;
+	margin: 0;
+}
+
+a {
+    color: #339900;
+    margin: 0;
+    outline: medium none;
+    padding: 0;
+    text-decoration: none;
+}
+a img {
+    border: medium none;
+}
+a:hover {
+    color: #000000;
+}
+
+ul {
+	list-style-type: none;
+}
+
+.header {
+	padding: 0 0 0 90px;
+	margin: 50px 0;
+}
+
+.header .title {
+	border-color: #339900;
+	border-style: none none none solid;
+	border-width: medium medium medium 1.5em;
+	margin: 0;
+	padding: 0 0 0 10px;
+	line-height: 1.5em;
+	font-size: 2em;
+	font-weight: bold;
+	color: #666666;
+}
+
+.header .title a {
+	text-decoration: none;
+	color: #666666;
+}
+.header .title a:hover {
+	text-decoration: none;
+	color: #666666;
+}
+
+.wrapper {
+	height: 100%;
+	margin: 0;
+	text-align: left;
+	width: 960px;
+}
+
+.slider {
+	float: right;
+	margin: 0;
+	padding: 0px;
+	position: relative;
+	width: 120px;
+}
+
+.main_content {
+	color: #666666;
+	height: 100%;
+	margin: 0;
+	padding: 0 0 0 90px;
+	width: 700px;
+}
+
+.main_content .main_left {
+	float: left;
+	margin: 50px 0;
+	width: 460px;
+}
+
+.main_content .main_right {
+	float: left;
+	margin: 50px 0;
+	width: 220px;
+}
+
+.main_content .main_single {
+	margin: 50px 0;
+	width: 696px;
+}
+
+.spacer {
+	clear: both;
+	font-size: 0;
+	line-height: 0;
+}
+
+
+form {
+    margin: 0px;
+    padding: 0;
+    width: 100%;
+}
+form fieldset {
+    border: 0 none;
+    font-family: "Trebuchet MS",Arial,sans-serif;
+    font-size: 1.1em;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+form input {
+    border: 1px solid #B6B6B6;
+    color: #666666;
+    font-family: "Trebuchet MS",Arial,sans-serif;
+    font-size: 1em;
+    height: 2em;
+    margin: 5px 0;
+    padding: 0 0.2em;
+    width: 220px;
+}
+
+form input[type="submit"] {
+	width: 70px;
+	height: 2em;
+}
+
+form label {
+    color: #666666;
+    font-family: "Trebuchet MS",Arial,sans-serif;
+    padding: 0;
+}
+form textarea {
+    border: 1px solid #B6B6B6;
+    color: #666666;
+    font-family: "Trebuchet MS",Arial,sans-serif;
+    font-size: 1em;
+    height: 15em;
+    margin: 10px 0 0;
+    overflow: auto;
+    padding: 0.2em;
+    width: 300px;
+}
+
+form .errormsg {
+	color: red;
+	float: right;
+}
+
+form.big textarea {
+	width: 620px;
+}
+
+form.big input {
+	width: 620px 
+}
+
+form.big input[type="submit"] {
+	width: 70px;
+	height: 2em;
+}
+form.big input[type="button"] {
+	width: 100px;
+	height: 2em;
+}
+
+
+div.divider {
+	clear: both;
+	width: 620px
+}
+div.divider div.left {
+	float: left;
+}
+div.divider div.right {
+	float: right;
+}

@@ -1,0 +1,32 @@
+#wrapperLeft,#topPic { display:none; }
+
+div.mainContent table.itemlist tr th{
+  padding:5px;
+  
+  font-weight:bold;
+  color:#6d3f00;
+  background-color:#ffd99f;
+  
+  border-bottom:1px solid #000;
+}
+div.mainContent table.itemlist tr.itemlist0 td{
+  padding:5px;
+  
+  color:#6d3f00;
+  
+  
+  background-color:#fee8c6;
+  
+  border-bottom:1px solid #000;
+}
+div.mainContent table.itemlist tr.itemlist1 td{
+  padding:5px;
+  
+  color:#6d3f00;
+  
+  
+  background-color:#ffd99f;
+  
+  
+  border-bottom:1px solid #000;
+}
